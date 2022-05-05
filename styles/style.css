@@ -7,7 +7,7 @@
 }
 
 body{
-    background: url(../img/pexels-riccardo-bertolo-4245826.jpg);
+    background: url(../img/pexels-riccardo-bertolo-4245826.jpg) no-repeat center top;;
 }
 
 header{
@@ -81,4 +81,14 @@ footer{
     display: block;
     text-align: center;
     padding: 3em 2em;
+}
+
+@media (max-width: 430px){
+    nav > ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column; 
+    }
 }

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: white;
+}
+
+body{
+    background: url(../img/pexels-riccardo-bertolo-4245826.jpg);
+}
+
+header{
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    padding: 3em 2em;
+    margin-bottom: 1em;
+    justify-content: space-between;
+
+}
+
+header > h1{
+    font-size: 2em;
+}
+
+.menu > li{
+    display: inline;
+    margin: 1em;
+}
+
+li > a{
+    text-decoration: none;
+}
+
+li > a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+main {
+    padding: 3em 2em;
+    margin-bottom: 1em;
+}
+
+#presentation{
+    text-align: center;
+    margin-bottom: 30px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#presentation > h1{
+    font-size: 2em;
+    text-shadow: 2px 2px 1px darkblue;
+    margin-bottom: 0.2em;
+}
+
+#presentation > h2{
+    font-size: 1.4em;
+    text-shadow: 2px 2px 1px darkblue;
+    margin-bottom: 0.2em;
+}
+
+
+#about{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+
+footer{
+    background-color: darkcyan;
+    display: block;
+    text-align: center;
+    padding: 3em 2em;
+}
